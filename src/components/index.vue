@@ -1,7 +1,8 @@
 <template>
-	<div class="background">
+	<div class="index">
 		<div class="head">
-			<img src="../assets/imgs/head.jpg">
+			<img class="circleImg" src="../assets/imgs/head.jpg">
+            <hr/>
 		</div>
 	</div>
 </template>
@@ -10,7 +11,9 @@
 	export default {
 		name: 'Index',
 		data () {
+            return{
 
+            }
 		}
 	}
 </script>
@@ -21,14 +24,23 @@
 		margin: 0;
 		padding: 0;
 	}
-	.background{
+	.index{
 		background-image: url("../assets/imgs/background.jpg");
 		width: 100%;
 		height: 100%;
 		position: absolute;
 	}
-	img{
-		width: 20%;
-		height: 200px;
+	.head{
+		text-align: center;
+		margin-top: 150px;
 	}
+	.circleImg{
+		border-radius: 125px;
+		border: 5px solid white;
+		box-shadow: 1px 1px 1px 1px gray;
+	}
+    hr{
+        width: 100px;
+        border-color: cadetblue;
+    }
 </style>
