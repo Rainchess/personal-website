@@ -3,6 +3,9 @@
 		<div class="head">
 			<img class="circleImg" src="../assets/imgs/head.jpg">
             <hr/>
+            <p>
+                张屿麒的个人主页
+            </p>
 		</div>
 	</div>
 </template>
@@ -20,10 +23,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	*{
-		margin: 0;
-		padding: 0;
-	}
 	.index{
 		background-image: url("../assets/imgs/background.jpg");
 		width: 100%;
@@ -33,6 +32,7 @@
 	.head{
 		text-align: center;
 		margin-top: 150px;
+        font-size: 30px;
 	}
 	.circleImg{
 		border-radius: 125px;
@@ -41,6 +41,9 @@
 	}
     hr{
         width: 100px;
-        border-color: cadetblue;
+        height: 1px;
+        border: none;
+        border-top: 1px solid cadetblue;
+        margin-top: 10px;
     }
 </style>
