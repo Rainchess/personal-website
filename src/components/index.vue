@@ -3,7 +3,7 @@
 		<div class="head">
 			<img class="circleImg" src="../assets/imgs/head.jpg">
             <hr/>
-            <p>
+            <p class="title">
                 张屿麒的个人主页
             </p>
 		</div>
@@ -43,7 +43,12 @@
         width: 100px;
         height: 1px;
         border: none;
-        border-top: 1px solid cadetblue;
+        border-top: 1px solid dimgray;
         margin-top: 10px;
+        margin-left: 590px;
+    }
+    .title{
+        margin-top: 10px;
+        color: dimgrey;
     }
 </style>
