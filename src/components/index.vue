@@ -1,5 +1,13 @@
 <template>
 	<div class="index">
+        <div class="nav">
+            <ul>
+                <li>简介</li>
+                <li>教育</li>
+                <li>经历</li>
+                <li>技能</li>
+            </ul>
+        </div>
 		<div class="head">
 			<img class="circleImg" src="../assets/imgs/head.jpg">
             <hr/>
@@ -29,6 +37,14 @@
 		height: 100%;
 		position: absolute;
 	}
+    li{
+        width: 200px;
+        float: left;
+        list-style: none;
+        color: gray;
+        margin-top: 10px;
+        font-size: 20px;
+    }
 	.head{
 		text-align: center;
 		margin-top: 150px;
@@ -45,7 +61,7 @@
         border: none;
         border-top: 1px solid dimgray;
         margin-top: 10px;
-        margin-left: 590px;
+        margin-left: 46%;
     }
     .title{
         margin-top: 10px;
