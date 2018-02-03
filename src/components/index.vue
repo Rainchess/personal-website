@@ -44,6 +44,8 @@
         color: gray;
         margin-top: 10px;
         font-size: 20px;
+        text-align: center;
+        margin-left: 7%;
     }
 	.head{
 		text-align: center;
