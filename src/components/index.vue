@@ -15,6 +15,18 @@
                 张屿麒的个人主页
             </p>
 		</div>
+        <div class="container">
+            <div class="whiteRec">
+                <p></p>
+            </div>
+            <div class="grayRec">
+                <div class="frame">
+                    <div class="bubble">
+                        <div class="top"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
 </template>
 
@@ -33,23 +45,25 @@
 <style scoped>
 	.index{
 		background-image: url("../assets/imgs/background.jpg");
+        background-attachment: fixed;
 		width: 100%;
 		height: 100%;
-		position: absolute;
 	}
+    .nav{
+        position: fixed;
+    }
     li{
         width: 200px;
-        float: left;
+        float: right;
         list-style: none;
         color: gray;
         margin-top: 10px;
         font-size: 20px;
         text-align: center;
-        margin-left: 7%;
     }
 	.head{
 		text-align: center;
-		margin-top: 150px;
+		padding-top: 150px;
         font-size: 30px;
 	}
 	.circleImg{
@@ -68,5 +82,42 @@
     .title{
         margin-top: 10px;
         color: dimgrey;
+    }
+    .whiteRec{
+        background-color: #EAEAEA;
+        color: gray;
+        width: 700px;
+        height: 450px;
+        margin-top: 50px;
+        margin-left: 400px;
+        margin-bottom: 50px;
+    }
+    .grayRec{
+        background-color: grey;
+        width: 450px;
+        height: 400px;
+        margin-top: -475px;
+        margin-left: 75px;
+        margin-bottom: 75px;
+        position: absolute;
+    }
+    .frame{
+        background-color: transparent;
+        border: 5px double white;
+        color: whitesmoke;
+        width: 390px;
+        height: 340px;
+        margin-top: 25px;
+        margin-left: 25px;
+        position: relative;
+    }
+    .top{
+        background-color: wheat;
+        color: gray;
+        width: 90px;
+        height: 40px;
+        margin-top: 25px;
+        margin-left: 25px;
+        z-index: 5;
     }
 </style>
