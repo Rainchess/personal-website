@@ -23,6 +23,7 @@
                 <div class="frame">
                     <div class="bubble">
                         <div class="top"></div>
+                        <div class="bottom"></div>
                     </div>
                 </div>
             </div>
@@ -118,6 +119,15 @@
         height: 40px;
         margin-top: 25px;
         margin-left: 25px;
-        z-index: 5;
+    }
+    .bottom{
+        background-color: wheat;
+        color: gray;
+        width: 0;
+        height: 0;
+        margin-left: 35px;
+        border-width: 5px 10px;
+        border-style:dashed solid solid dashed;
+        border-color:#F5DEB3 #808080 #808080 #F5DEB3;
     }
 </style>
