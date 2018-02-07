@@ -3,7 +3,9 @@
         <div class="nav">
             <ul>
                 <li>简介</li>
-                <li>教育</li>
+                <router-link to="/education">
+                    <li>教育</li>
+                </router-link>
                 <li>经历</li>
                 <li>技能</li>
             </ul>
@@ -55,10 +57,11 @@
     }
     li{
         width: 200px;
-        float: right;
+        float: left;
         list-style: none;
         color: gray;
         margin-top: 10px;
+        margin-left: 90px;
         font-size: 20px;
         text-align: center;
     }
