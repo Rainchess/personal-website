@@ -6,7 +6,9 @@
                 <router-link to="/education">
                     <li>教育</li>
                 </router-link>
-                <li>经历</li>
+                <router-link to="/experience">
+                    <li>经历</li>
+                </router-link>
                 <li>技能</li>
             </ul>
         </div>
