@@ -78,10 +78,14 @@
     }
     hr{
         width: 100px;
-        height: 1px;
+        border-top: 0;
+        border-bottom: 1px solid #808080;
         margin-left: 350px;
     }
     .hrTop{
         margin-top: 20px;
+    }
+    .hrBottom{
+        margin-top: 1px;
     }
 </style>
