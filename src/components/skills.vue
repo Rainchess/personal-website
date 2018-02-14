@@ -1,5 +1,5 @@
 <template>
-    <div class="experience">
+    <div class="skills">
         <div class="nav">
             <ul>
                 <router-link to="/">
@@ -8,17 +8,17 @@
                 <router-link to="/education">
                     <li>教育</li>
                 </router-link>
-                <li>经历</li>
-                <router-link to="/skills">
-                    <li>技能</li>
+                <router-link to="/experience">
+                    <li>经历</li>
                 </router-link>
+                <li>技能</li>
             </ul>
         </div>
         <div class="head">
             <img class="circleImg" src="../assets/imgs/head1.jpg">
         </div>
         <div class="container">
-            <p class="title">经 历</p>
+            <p class="title">技 能</p>
             <hr class="hrTop"/>
             <hr class="hrBottom"/>
         </div>
@@ -27,7 +27,7 @@
 
 <script>
     export default {
-        name: 'Experience',
+        name: 'Skills',
         data () {
             return{
 
@@ -36,8 +36,9 @@
     }
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .experience{
+    .skills{
         background-image: url("../assets/imgs/background.jpg");
         background-attachment: fixed;
         width: 100%;

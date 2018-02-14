@@ -9,7 +9,9 @@
                 <router-link to="/experience">
                     <li>经历</li>
                 </router-link>
-                <li>技能</li>
+                <router-link to="/skills">
+                    <li>技能</li>
+                </router-link>
             </ul>
         </div>
         <div class="head">
