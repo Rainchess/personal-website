@@ -12,6 +12,9 @@
                 <router-link to="/skills">
                     <li>技能</li>
                 </router-link>
+                <router-link to="/contact">
+                    <li>联系我</li>
+                </router-link>
             </ul>
         </div>
         <div class="head">
@@ -47,12 +50,12 @@
         position: fixed;
     }
     li{
-        width: 200px;
+        width: 150px;
         float: left;
         list-style: none;
         color: gray;
         margin-top: 10px;
-        margin-left: 90px;
+        margin-left: 80px;
         font-size: 20px;
         text-align: center;
     }
@@ -79,13 +82,13 @@
         color: grey;
     }
     hr{
-        width: 100px;
+        width: 120px;
         border-top: 0;
         border-bottom: 1px solid #808080;
-        margin-left: 350px;
+        margin-left: 340px;
     }
     .hrTop{
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .hrBottom{
         margin-top: 1px;
