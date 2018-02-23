@@ -25,10 +25,14 @@
             <hr class="hrTop"/>
             <hr class="hrBottom"/>
             <div class="info">
-                <input class="inputText" type="text" placeholder="姓名">
+                <input class="common inputText inputTextLeftUp" type="text" placeholder="姓名">
+                <input class="common inputText inputTextRightUp" type="text" placeholder="邮箱">
+                <input class="common inputText inputTextLeftDown" type="text" placeholder="职业">
+                <input class="common inputText inputTextRightDown" type="text" placeholder="电话">
+                <textarea class="common textareaMsg" placeholder="意见..."></textarea>
+                <button class="btn">提交</button>
             </div>
         </div>
-
     </div>
 </template>
 
@@ -74,7 +78,7 @@
     }
     .container{
         width: 800px;
-        height: 500px;
+        height: 650px;
         background-color: #EAEAEA;
         margin: auto;
         margin-top: -70px;
@@ -98,15 +102,53 @@
     .hrBottom{
         margin-top: 1px;
     }
-    .inputText{
-        width: 350px;
-        height: 35px;
-        margin-top: 50px;
-        margin-left: 40px;
+    input{
+        outline: none;
+    }
+    .common{
         background-color: transparent;
         border: 1px solid gray;
         font-size: 20px;
         padding-left: 10px;
         color: dimgray;
+    }
+    .inputText{
+        width: 350px;
+        height: 35px;
+    }
+    .inputTextLeftUp{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .inputTextRightUp{
+        margin-left: 10px;
+    }
+    .inputTextLeftDown{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .inputTextRightDown{
+        margin-left: 10px;
+    }
+    textarea{
+        outline: none;
+    }
+    .textareaMsg{
+        width: 717px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 30px;
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+    .btn{
+        width: 230px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+        background-color: dimgray;
+        color: white;
+        border: none;
+        font-size: 20px;
     }
 </style>
