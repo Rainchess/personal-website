@@ -21,16 +21,23 @@
             <img class="circleImg" src="../assets/imgs/head1.jpg">
         </div>
         <div class="container">
-            <p class="title">联 系 我</p>
-            <hr class="hrTop"/>
-            <hr class="hrBottom"/>
-            <div class="info">
-                <input class="common inputText inputTextLeftUp" type="text" placeholder="姓名">
-                <input class="common inputText inputTextRightUp" type="text" placeholder="邮箱">
-                <input class="common inputText inputTextLeftDown" type="text" placeholder="职业">
-                <input class="common inputText inputTextRightDown" type="text" placeholder="电话">
-                <textarea class="common textareaMsg" placeholder="意见..."></textarea>
-                <button class="btn">提交</button>
+            <div class="up">
+                <p class="title">联 系 我</p>
+                <hr class="hrTop"/>
+                <hr class="hrBottom"/>
+                <div class="info">
+                    <input class="common inputText inputTextLeftUp" type="text" placeholder="姓名">
+                    <input class="common inputText inputTextRightUp" type="text" placeholder="邮箱">
+                    <input class="common inputText inputTextLeftDown" type="text" placeholder="职业">
+                    <input class="common inputText inputTextRightDown" type="text" placeholder="电话">
+                    <textarea class="common textareaMsg" placeholder="意见..."></textarea>
+                    <button class="btn">提交</button>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <div class="msg">
+
             </div>
         </div>
     </div>
@@ -76,13 +83,12 @@
         border-radius: 70px;
         border: 3px solid #EAEAEA;
     }
-    .container{
+    .up{
         width: 800px;
         height: 650px;
         background-color: #EAEAEA;
         margin: auto;
         margin-top: -70px;
-        margin-bottom: 100px;
     }
     .title{
         font-size: 30px;
@@ -150,5 +156,17 @@
         color: white;
         border: none;
         font-size: 20px;
+    }
+    .down{
+        width: 800px;
+        height: 200px;
+        background-image: url("../assets/imgs/contact-down.jpg");
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .msg{
+        width: 800px;
+        height: 200px;
+        background-color: rgba(255,255,255,0.5);
     }
 </style>
