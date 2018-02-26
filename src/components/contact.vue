@@ -37,7 +37,17 @@
         </div>
         <div class="down">
             <div class="msg">
-
+                <div class="left">
+                    <span class="wordBig">地址</span>
+                </div>
+                <div class="middle">
+                    <span class="wordBig">邮箱</span>
+                    <div class="wordSmall">2430153935@qq.com</div>
+                </div>
+                <div class="right">
+                    <span class="wordBig">电话</span>
+                    <div class="wordSmall">13244576173</div>
+                </div>
             </div>
         </div>
     </div>
@@ -167,6 +177,37 @@
     .msg{
         width: 800px;
         height: 200px;
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(0,0,0,0.5);
+    }
+    .left{
+        width: 270px;
+        height: 200px;
+        text-align: center;
+    }
+    .middle{
+        width: 260px;
+        height: 200px;
+        margin-left: 270px;
+        margin-top: -200px;
+        text-align: center;
+    }
+    .right{
+        width: 270px;
+        height: 200px;
+        margin-left: 530px;
+        margin-top: -200px;
+        text-align: center;
+    }
+    .wordBig{
+        font-size: 25px;
+        color: white;
+        position: relative;
+        top: 40px;
+    }
+    .wordSmall{
+        font-size: 15px;
+        color: white;
+        position: relative;
+        top: 70px;
     }
 </style>
