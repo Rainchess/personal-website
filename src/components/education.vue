@@ -5,7 +5,7 @@
                 <router-link to="/">
                     <li>简介</li>
                 </router-link>
-                <li>教育</li>
+                <li class="active">教育</li>
                 <router-link to="/experience">
                     <li>经历</li>
                 </router-link>
@@ -41,6 +41,11 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .active{
+        color: white;
+        font-size: 25px;
+        margin-top: 5px;
+    }
     .education{
         background-image: url("../assets/imgs/background.jpg");
         background-attachment: fixed;

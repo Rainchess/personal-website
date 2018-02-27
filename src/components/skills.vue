@@ -11,7 +11,7 @@
                 <router-link to="/experience">
                     <li>经历</li>
                 </router-link>
-                <li>技能</li>
+                <li class="active">技能</li>
                 <router-link to="/contact">
                     <li>联系我</li>
                 </router-link>
@@ -41,6 +41,11 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .active{
+        color: white;
+        font-size: 25px;
+        margin-top: 5px;
+    }
     .skills{
         background-image: url("../assets/imgs/background.jpg");
         background-attachment: fixed;

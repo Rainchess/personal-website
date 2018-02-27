@@ -2,7 +2,7 @@
 	<div class="index">
         <div class="nav">
             <ul>
-                <li>简介</li>
+                <li class="active">简介</li>
                 <router-link to="/education">
                     <li>教育</li>
                 </router-link>
@@ -53,6 +53,11 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .active{
+        color: white;
+        font-size: 25px;
+        margin-top: 5px;
+    }
 	.index{
 		background-image: url("../assets/imgs/background.jpg");
         background-attachment: fixed;

@@ -8,7 +8,7 @@
                 <router-link to="/education">
                     <li>教育</li>
                 </router-link>
-                <li>经历</li>
+                <li class="active">经历</li>
                 <router-link to="/skills">
                     <li>技能</li>
                 </router-link>
@@ -40,6 +40,11 @@
 </script>
 
 <style scoped>
+    .active{
+        color: white;
+        font-size: 25px;
+        margin-top: 5px;
+    }
     .experience{
         background-image: url("../assets/imgs/background.jpg");
         background-attachment: fixed;
